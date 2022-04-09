@@ -1,0 +1,46 @@
+Server Name / 서버 이름 : ${interaction.guild.name}\n
+    Total Members / 유저 수 : ${interaction.guild.memberCount}\n
+    Server Owner / 서버장 이름 : ${interaction.guild.fetchOwner}\n
+    Created At / 서버가 열린 날짜 : ${interaction.guild.createdAt.toDateString}
+
+message.guild.commands.create({
+            name: "poll",
+            description: "Create poll",
+            options: [
+                {
+                    name: "time",
+                    description: "Time to vote in minutes",
+                    type: "INTEGER",
+                    required: true
+                }, {
+                    name: "question",
+                    description: "Question",
+                    type: "STRING",
+                    required: true
+                }, {
+                    name: "answer1",
+                    description: "Answer 1",
+                    type: "STRING",
+                    required: true
+                }, {
+                    name: "answer2",
+                    description: "Answer 2",
+                    type: "STRING",
+                    required: true
+                }, {
+                    name: "answer3",
+                    description: "Answer 3",
+                    type: "STRING"
+                }, {
+                    name: "answer4",
+                    description: "Answer 4",
+                    type: "STRING"
+                }, {
+                    name: "answer5",
+                    description: "Answer 5",
+                    type: "STRING"
+                }
+            ],
+            defaultPermission: true
+        })
+
