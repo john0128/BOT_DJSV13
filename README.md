@@ -2,4 +2,6 @@
 이 봇은 곧 나인DEV에서 개발 예정입니다.
 
 #봇사용법
-git clone 
+git clone https://github.com/john0128/BOT_DJSV13.git
+npm i
+
