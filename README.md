@@ -1,7 +1,5 @@
-# discordjs-buttons
+나인주안이 개발중인 봇입니다.
+이 봇은 곧 나인DEV에서 개발 예정입니다.
 
-0. git clone https://github.com/allssu/discordjs-buttons.git
-1. npm install
-2. config.json에 여러분의 정보를 적어주세요
-3. node deploy-commands.js
-4. npm run start:dev
+#봇사용법
+git clone 
